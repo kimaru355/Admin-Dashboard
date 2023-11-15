@@ -7,10 +7,82 @@
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <div id="root" class="w-full h-screen bg-slate-300">
-        <div id="panel"></div>
-        <header></header>
-        <main></main>
+    <div id="root" class="w-full h-screen bg-slate-300 grid grid-cols-10 grid-rows-6">
+        <div id="panel" class="bg-sky-500 col-span-2 row-span-6 flex flex-col p-4">
+            <a href="#">Dashboard</a>
+            <a href="#">Home</a>
+            <a href="#">Profile</a>
+            <a href="#">Messages</a>
+            <a href="#">History</a>
+            <a href="#">Tasks</a>
+            <a href="#">Communities</a>
+            <a href="#">Settings</a>
+            <a href="#">Support</a>
+            <a href="#">Privacy</a>
+        </div>
+        <header class="bg-slate-100 col-span-8 row-span-1 px-10">
+            <div class="flex">
+                <label for="search" class="mr-4">
+                    <img src="./images/search-icon.svg" alt="search icon">
+                </label>
+                <input type="text" name="search" id="search" class="bg-slate-300 rounded-xl">
+                <div class="mr-0 ml-auto">
+                    <p>Morgan Oakley</p>
+                </div>
+            </div>
+            <div class="flex ">
+                <div class="text-black">
+                    <p class="text-sm">Hi there,</p>
+                    <p class="font-bold text-lg">Morgan Oakley (@morgan)</p>
+                </div>
+                <div class="mr-0 ml-auto">
+                    <button type="button" class="bg-sky-500 py-1 px-8 text-white font-bold rounded-2xl">New</button>
+                    <button type="button" class="bg-sky-500 py-1 px-8 text-white font-bold rounded-2xl">Upload</button>
+                    <button type="button" class="bg-sky-500 py-1 px-8 text-white font-bold rounded-2xl">Share</button>
+                </div>
+            </div>
+        </header>
+        <main class="bg-slate-300 col-span-8 row-span-5 grid grid-cols-8">
+            <div class="col-span-8 flex justify-between">
+                <p>Your Projects</p>
+                <p>Announcements</p>
+            </div>
+            <div class="col-span-3">
+                <div class="bg-slate-100 border-l-2 border-l-orange-400">
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
+                </div>
+                <div class="bg-slate-100 border-l-2 border-l-orange-400">
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
+                </div>
+                <div class="bg-slate-100 border-l-2 border-l-orange-400">
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
+                </div>
+            </div>
+            <div class="col-span-3">
+                <div class="bg-slate-100 border-l-2 border-l-orange-400">
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
+                </div>
+                <div class="bg-slate-100 border-l-2 border-l-orange-400">
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
+                </div>
+                <div class="bg-slate-100 border-l-2 border-l-orange-400">
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
+                </div>
+            </div>
+            <div class="col-span-2">
+                <div></div>
+                <div class="flex flex-col">
+                    <p>Trending</p>
+                    <div></div>
+                </div>
+            </div>
+        </main>
     </div>
     <scipt src="./script.js"></scipt>
 </body>
