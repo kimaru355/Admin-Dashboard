@@ -8,26 +8,26 @@
 </head>
 <body>
     <div id="root" class="w-full h-screen bg-slate-300 grid grid-cols-10 grid-rows-6">
-        <div id="panel" class="bg-sky-500 col-span-2 row-span-6 flex flex-col p-4">
-            <a href="#">Dashboard</a>
-            <a href="#">Home</a>
-            <a href="#">Profile</a>
-            <a href="#">Messages</a>
-            <a href="#">History</a>
-            <a href="#">Tasks</a>
-            <a href="#">Communities</a>
-            <a href="#">Settings</a>
-            <a href="#">Support</a>
-            <a href="#">Privacy</a>
+        <div id="panel" class="bg-sky-500 col-span-2 row-span-6 flex flex-col p-4 gap-4 text-white">
+            <a href="#" class="text-2xl font-bold">Dashboard</a>
+            <a href="#" class="pt-4 font-bold text-xl">Home</a>
+            <a href="#" class="text-xl font-bold">Profile</a>
+            <a href="#" class="text-xl font-bold">Messages</a>
+            <a href="#" class="text-xl font-bold">History</a>
+            <a href="#" class="text-xl font-bold">Tasks</a>
+            <a href="#" class="text-xl font-bold">Communities</a>
+            <a href="#" class="pt-4 font-bold text-xl">Settings</a>
+            <a href="#" class="text-xl font-bold">Support</a>
+            <a href="#" class="text-xl font-bold">Privacy</a>
         </div>
-        <header class="bg-slate-100 col-span-8 row-span-1 px-10">
-            <div class="flex">
+        <header class="bg-slate-100 col-span-8 row-span-1 py-4 px-10">
+            <div class="flex pb-4">
                 <label for="search" class="mr-4">
                     <img src="./images/search-icon.svg" alt="search icon">
                 </label>
-                <input type="text" name="search" id="search" class="bg-slate-300 rounded-xl">
+                <input type="text" name="search" id="search" class="bg-slate-300 rounded-xl w-2/3">
                 <div class="mr-0 ml-auto">
-                    <p>Morgan Oakley</p>
+                    <p class="font-bold text-lg">Morgan Oakley</p>
                 </div>
             </div>
             <div class="flex ">
@@ -36,42 +36,42 @@
                     <p class="font-bold text-lg">Morgan Oakley (@morgan)</p>
                 </div>
                 <div class="mr-0 ml-auto">
-                    <button type="button" class="bg-sky-500 py-1 px-8 text-white font-bold rounded-2xl">New</button>
-                    <button type="button" class="bg-sky-500 py-1 px-8 text-white font-bold rounded-2xl">Upload</button>
-                    <button type="button" class="bg-sky-500 py-1 px-8 text-white font-bold rounded-2xl">Share</button>
+                    <button type="button" class="bg-sky-500 py-1 px-8 text-white font-bold rounded-2xl ml-4">New</button>
+                    <button type="button" class="bg-sky-500 py-1 px-8 text-white font-bold rounded-2xl ml-4">Upload</button>
+                    <button type="button" class="bg-sky-500 py-1 px-8 text-white font-bold rounded-2xl ml-4">Share</button>
                 </div>
             </div>
         </header>
-        <main class="bg-slate-300 col-span-8 row-span-5 grid grid-cols-8">
+        <main class="bg-slate-300 col-span-8 row-span-5 grid grid-cols-8 gap-4 p-4">
             <div class="col-span-8 flex justify-between">
                 <p>Your Projects</p>
                 <p>Announcements</p>
             </div>
-            <div class="col-span-3">
-                <div class="bg-slate-100 border-l-2 border-l-orange-400">
-                    <h3>Super Cool Project</h3>
+            <div class="col-span-3 flex flex-col gap-4">
+                <div class="bg-slate-100 border-l-8 border-l-orange-400 rounded-lg p-4">
+                    <h3 class="font-bold text-lg">Super Cool Project</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
                 </div>
-                <div class="bg-slate-100 border-l-2 border-l-orange-400">
-                    <h3>Super Cool Project</h3>
+                <div class="bg-slate-100 border-l-8 border-l-orange-400 rounded-lg p-4">
+                    <h3 class="font-bold text-lg">Super Cool Project</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
                 </div>
-                <div class="bg-slate-100 border-l-2 border-l-orange-400">
-                    <h3>Super Cool Project</h3>
+                <div class="bg-slate-100 border-l-8 border-l-orange-400 rounded-lg p-4">
+                    <h3 class="font-bold text-lg">Super Cool Project</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
                 </div>
             </div>
-            <div class="col-span-3">
-                <div class="bg-slate-100 border-l-2 border-l-orange-400">
-                    <h3>Super Cool Project</h3>
+            <div class="col-span-3 flex flex-col gap-4">
+                <div class="bg-slate-100 border-l-8 border-l-orange-400 rounded-lg p-4">
+                    <h3 class="font-bold text-lg">Super Cool Project</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
                 </div>
-                <div class="bg-slate-100 border-l-2 border-l-orange-400">
-                    <h3>Super Cool Project</h3>
+                <div class="bg-slate-100 border-l-8 border-l-orange-400 rounded-lg p-4">
+                    <h3 class="font-bold text-lg">Super Cool Project</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
                 </div>
-                <div class="bg-slate-100 border-l-2 border-l-orange-400">
-                    <h3>Super Cool Project</h3>
+                <div class="bg-slate-100 border-l-8 border-l-orange-400 rounded-lg p-4">
+                    <h3 class="font-bold text-lg">Super Cool Project</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, magnam. Totam velit dolorem quibusdam? Iure id illum nam nulla debitis.</p>
                 </div>
             </div>
