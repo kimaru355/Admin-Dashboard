@@ -7,18 +7,18 @@
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <div id="root" class="w-full h-screen bg-slate-300 grid grid-cols-10 grid-rows-6">
+    <div id="root" class="w-full min-h-screen bg-slate-300 grid grid-cols-10 grid-rows-6">
         <div id="panel" class="bg-sky-500 col-span-2 row-span-6 flex flex-col p-4 gap-4 text-white">
-            <a href="#" class="text-2xl font-bold">Dashboard</a>
-            <a href="#" class="pt-4 font-bold text-xl flex gap-4"><img src="./images/home-icon.svg" alt="home icon"> Home</a>
-            <a href="#" class="text-xl font-bold">Profile</a>
-            <a href="#" class="text-xl font-bold">Messages</a>
-            <a href="#" class="text-xl font-bold">History</a>
-            <a href="#" class="text-xl font-bold">Tasks</a>
-            <a href="#" class="text-xl font-bold">Communities</a>
-            <a href="#" class="pt-4 font-bold text-xl">Settings</a>
-            <a href="#" class="text-xl font-bold">Support</a>
-            <a href="#" class="text-xl font-bold">Privacy</a>
+            <a href="#" class="text-2xl font-bold flex gap-4 mb-10"><img src="./images/dashboard-icon.png" alt="dashboard icon"> Dashboard</a>
+            <a href="#" class="pt-4 font-bold text-xl flex gap-4"><img src="./images/home-icon.svg" alt="home icon" width="24px" height="24px"> Home</a>
+            <a href="#" class="pt-4 font-bold text-xl flex gap-4"><img src="./images/profile-icon.png" alt="home icon" width="24px" height="24px"> Profile</a>
+            <a href="#" class="pt-4 font-bold text-xl flex gap-4"><img src="./images/messages-icon.png" alt="home icon" width="24px" height="24px"> Messages</a>
+            <a href="#" class="pt-4 font-bold text-xl flex gap-4"><img src="./images/history-icon.png" alt="home icon" width="24px" height="24px"> History</a>
+            <a href="#" class="pt-4 font-bold text-xl flex gap-4"><img src="./images/tasks-icon.png" alt="home icon" width="24px" height="24px"> Tasks</a>
+            <a href="#" class="pt-4 font-bold text-xl flex gap-4"><img src="./images/community-icon.png" alt="home icon" width="24px" height="24px"> Communities</a>
+            <a href="#" class="pt-4 font-bold text-xl flex gap-4 mt-10"><img src="./images/settings-icon.png" alt="home icon" width="24px" height="24px"> Settings</a>
+            <a href="#" class="pt-4 font-bold text-xl flex gap-4"><img src="./images/support-icon.png" alt="home icon" width="24px" height="24px"> Support</a>
+            <a href="#" class="pt-4 font-bold text-xl flex gap-4"><img src="./images/privacy-icon.png" alt="home icon" width="24px" height="24px"> Privacy</a>
         </div>
         <header class="bg-slate-100 col-span-8 row-span-1 py-4 px-10">
             <div class="flex pb-4">
@@ -78,26 +78,55 @@
             </div>
             <div class="col-span-2 flex flex-col">
                 <div class="flex flex-col">
-                    <p class="text-lg font-bold">Announcements</p>
+                    <p class="text-lg font-bold py-4">Announcements</p>
                     <div class="bg-slate-100 rounded-lg flex flex-col p-4">
                         <div class="p-4 border-b border-b-slate-500">
                             <h3 class="font-bold">Site Maintenance</h3>
-                            <p class="text-sm font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda itaque nam sunt quaerat animi maxime dolorem esse. Sit, dolore perferendis.</p>
+                            <p class="text-sm font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda itaque .</p>
                         </div>
                         <div class="p-4 border-b border-b-slate-500">
                             <h3 class="font-bold">Community Share Day</h3>
-                            <p class="text-sm font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda itaque nam sunt quaerat animi maxime dolorem esse. Sit, dolore perferendis.</p>
+                            <p class="text-sm font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda is.</p>
                         </div>
                         <div class="p-4">
                             <h3 class="font-bold">Updated Privacy Policy</h3>
-                            <p class="text-sm font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda itaque nam sunt quaerat animi maxime dolorem esse. Sit, dolore perferendis.</p>
+                            <p class="text-sm font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda .</p>
                         </div>
                     </div>
                 </div>
                 <div class="flex flex-col">
                     <div class="flex flex-col">
-                        <p>Trending</p>
-                        <div></div>
+                        <p class="text-lg font-bold py-4">Trending</p>
+                        <div class="bg-slate-100 rounded-md p-4 flex flex-col gap-4">
+                            <div class="flex grow-0 shrink-0 gap-4">
+                                <img src="./images/dog.png" alt="dog imaage" width="48px" height="48px">
+                                <div>
+                                    <p class="font-bold">@tegan</p>
+                                    <p class="font-extralight">World Peace Builder</p>
+                                </div>
+                            </div>
+                            <div class="flex grow-0 shrink-0 gap-4">
+                                <img src="./images/cat.png" alt="cat image" width="48px" height="48px">
+                                <div>
+                                    <p class="font-bold">@morgan</p>
+                                    <p class="font-extralight">Super Cool Project</p>
+                                </div>
+                            </div>
+                            <div class="flex grow-0 shrink-0 gap-4">
+                                <img src="./images/spiderman.png" alt="spiderman image" width="48px" height="48px">
+                                <div>
+                                    <p class="font-bold">@kendall</p>
+                                    <p class="font-extralight">Life Changing App</p>
+                                </div>
+                            </div>
+                            <div class="flex grow-0 shrink-0 gap-4">
+                                <img src="./images/ninja.png" alt="ninja image" width="48px" height="48px">
+                                <div>
+                                    <p class="font-bold">@alex</p>
+                                    <p class="font-extralight">No Traffic Maker</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
